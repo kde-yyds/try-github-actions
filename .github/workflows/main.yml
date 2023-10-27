@@ -1,9 +1,5 @@
 name: debugger-action
-on:
-  push:
-    branches:
-      - test
-      - master
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
