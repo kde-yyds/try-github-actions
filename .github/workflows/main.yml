@@ -2,7 +2,7 @@ name: debugger-action
 on: [push]
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: debian-latest
     steps:
     - uses: actions/checkout@v2
     - name: Setup upterm session
